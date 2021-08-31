@@ -1,0 +1,6 @@
+LIBRARY              "KeyMouseHook.dll"
+DESCRIPTION 'KeyMouseHook Windows Dynamic Link Library'
+EXPORTS
+	UninstallKeybdMouseHook
+	InstallKeybdMouseHook
+	TestValue

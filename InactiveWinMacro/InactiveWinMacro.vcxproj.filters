@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Macro">
+      <UniqueIdentifier>{cc7118de-5e3a-4de4-bc9f-3d768755c0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{eedb36be-f279-489e-908f-35dfe7434368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dlg">
+      <UniqueIdentifier>{a51ca93f-d2c6-453b-8fa6-fa5bac65d09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppIni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InactiveWinMacro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InactiveWinMacroDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro\EventList.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro\macro_def.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro\macro_file.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro\virtual_key.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro\WindowList.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Common.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\HyperLink.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Ini.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ListCtrlEx.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MultimediaTimer.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TrayIcon.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConfig.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEditDelay.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEditKeyboard.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEditMessage.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEditMouse.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEventList.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEventRec.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProcessList.cpp">
+      <Filter>Source Files\Dlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppIni.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InactiveWinMacro.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InactiveWinMacroDlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro\EventList.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro\macro_def.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro\macro_file.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro\virtual_key.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro\WindowList.h">
+      <Filter>Source Files\Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Definition.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\HyperLink.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Ini.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ListCtrlEx.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MultimediaTimer.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\TrayIcon.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConfig.h">
+      <Filter>Source Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEditDelay.h">
+      <Filter>Source Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEditKeyboard.h">
+      <Filter>Source Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEditMessage.h">
+      <Filter>Source Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEditMouse.h">
+      <Filter>Source Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEventList.h">
+      <Filter>Source Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEventRec.h">
+      <Filter>Source Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProcessList.h">
+      <Filter>Source Files\Dlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\application.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\EventsBitmap.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_unknown.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\InactiveWinMacro.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="InactiveWinMacro.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\InactiveWinMacro.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
